@@ -18,7 +18,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/jokester",
-            "index": "src/index.html",
+            "index": "src/index.csr.html",
             "main": "src/main.ts",
             "polyfills": [
               "zone.js"

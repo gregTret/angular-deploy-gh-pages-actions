@@ -36,7 +36,7 @@ async function run(): Promise<void> {
       navigateToDirectory(workspaceDir)
     }
     await commands.copyFile(
-      `${buildFolder ? buildFolder : './dist'}/index.html`,
+      `${buildFolder ? buildFolder : './dist'}/index.csr.html`,
       `${buildFolder ? buildFolder : './dist'}/404.html`
     )
     await commands.deployBuild({
